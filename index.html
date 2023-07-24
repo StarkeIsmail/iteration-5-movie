@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boxstar Studios</title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body {
+                background-color: #373435;
+            }
+            .poster-container {
+                max-width: auto;
+                margin: 0 auto;
+            }
+            .card {
+                border: none;
+                background-color: transparent;
+            }
+            .card-body {
+                padding: 0;
+            }
+            .poster-card {
+                background-color: #343a40;
+                border-radius: 0;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .poster-card .card-title {
+                font-size: 1.25rem;
+                margin-bottom: 0;
+                padding: 1rem;
+            }
+            .poster-card .card-text {
+                padding: 1rem;
+            }
+            .custom-container {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+            /* Add some space between the navbar and the content */
+            .navbar {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <img class="col-2 m-4 float-start" src="./box.png" alt="logo.png" height="120px">
+        </div>
+
+        <div>
+            <nav class="navbar navbar-expand justify-content-center" style="background-color: #D6AD60;">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <b>
+                        <a class="nav-link text-white" href="#">HOME </a>
+                    </b>
+                  </li>
+                  <li class="nav-item">
+                    <b>
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                    </b>
+                  </li>
+                  <li class="nav-item">
+                    <b>
+                        <a class="nav-link text-white" href="#">MOVIE</a>
+                    </b>
+                  </li>
+                  <li class="nav-item">
+                    <b>
+                        <a class="nav-link text-white" href="#">NEWS</a>
+                    </b>
+                  </li>
+                  <li class="nav-item">
+                    <b>
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </b>
+                  </li>
+                </ul>
+            </nav> 
+        </div>
+
+        <!-- New container to keep card and image together -->
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="poster-container">
+                        <img src="./movie-poster.png" alt="movie-poster.png" height="600px">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card poster-card text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">The Lord Of The Git</h5>
+                            <p class="card-text">
+                                When the great foe Iteration 5 destroyed the very last light of hope,
+                                Team 4 resisted. And a legion of software developers went to merge.
+                                They left their happiness, and journeyed to a distant realm. One filled
+                                with untold conflicts, and strange errors beyond reason. A place known, 
+                                as Visual Studio.<br><br>
+                                
+                                They said it would be over quickly, but the merge left Team 4 in ruin.
+                                And the pain and trauma suffered would last forever. They had learned
+                                many words for defeat. In the end, the code would be defeated, but not
+                                before compilation. For the documentation was incomplete, with diagrams 
+                                everywhere. Multiplying ever greater, under the command of the code's most 
+                                devoted servant. The cruel and cunning application. They called it...PowerDesigner<br><br>
+
+                                An analyst vowed to seek and defeat Iteration 5, but Iteration 5 found her first.<br><br>
+
+                                Book your tickets now!
+                            </p>
+                        </div>
+                        <a href="https://forms.gle/nKR64ZYbZg9iDVUQ6" target="_blank" class="btn text-white mt-4" style="background-color: #D6AD60;"><b>Book Your Ticket</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
